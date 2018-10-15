@@ -17,34 +17,34 @@ window.requestAnimationFrame(function () {
       inner.textContent = "He";
       break;
     case 8:
-      inner.textContent = "Li";
-      break;
-    case 16:
       inner.textContent = "Be";
       break;
-    case 32:
-      inner.textContent = "B";
-      break;
-    case 64:
-      inner.textContent = "C";
-      break;
-    case 128:
-      inner.textContent = "N";
-      break;
-    case 256:
+    case 16:
       inner.textContent = "O";
       break;
+    case 32:
+      inner.textContent = "S";
+      break;
+    case 64:
+      inner.textContent = "Ge";
+      break;
+    case 128:
+      inner.textContent = "Gd";
+      break;
+    case 256:
+      inner.textContent = "Undiscovered Element with 128 Protons";
+      break;
     case 512:
-      inner.textContent = "F";
+      inner.textContent = "Undiscovered Element with 256 Protons";
       break;
     case 1024:
-      inner.textContent = "Ne";
+      inner.textContent = "Undiscovered Element with 512 Protons";
       break;
     case 2048:
-      inner.textContent = "Na";
+      inner.textContent = "Undiscovered Element with 1024 Protons";
       break;
     case 4096:
-      inner.textContent = "Mg";
+      inner.textContent = "Undiscovered Element with 2048 Protons";
       break;
     }
     if (tile.previousPosition) {
