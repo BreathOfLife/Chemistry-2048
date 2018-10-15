@@ -63,7 +63,7 @@ h1.title {
   line-height: 47px;
   font-weight: bold;
   border-radius: 3px;
-  color: white;
+  color: black;
   margin-top: 8px;
   text-align: center; }
   .score-container:after, .best-container:after {
