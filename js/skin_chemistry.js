@@ -68,6 +68,9 @@ window.requestAnimationFrame(function () {
     game.restart();
 });
 function developerConsoleOpen() {
+	devButton = document.getElementById("devOpenButton");
+	devButton.style.color = "black";
+	devButton.style.background = "teal";
 	var x = document.createElement("FORM");
     x.setAttribute("id","devInputForm");
     document.body.appendChild(x)
