@@ -75,7 +75,7 @@ function developerConsoleOpen() {
     y.setAttribute("type", "text");
     y.setAttribute("value", "");
     y.setAttribute("id","devInput");
-    document.x.appendChild(y);
+    document.body.x.appendChild(y);
   y.addEventListener("keyup", function(event) {
   // Cancel the default action, if needed
   event.preventDefault();
