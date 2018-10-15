@@ -68,18 +68,19 @@ window.requestAnimationFrame(function () {
     game.restart();
 });
 function developerConsoleOpen() {
+	var devConsoleDiv = document.getElementById("devConsoleDiv");
 	var addTileActive = false;
 	devButton = document.getElementById("devOpenButton");
 	devButton.style.color = "black";
 	devButton.style.background = "teal";
 	var x = document.createElement("FORM");
     x.setAttribute("id","devInputForm");
-    document.body.appendChild(x)
+    devConsoleDiv.appendChild(x)
     var y = document.createElement("INPUT");
     y.setAttribute("type", "text");
     y.setAttribute("value", "");
     y.setAttribute("id","devInput");
-    document.body.x.appendChild(y);
+    x.appendChild(y);
   y.addEventListener("keyup", function(event) {
   // Cancel the default action, if needed
   event.preventDefault();
