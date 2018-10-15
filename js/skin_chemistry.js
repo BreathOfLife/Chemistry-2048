@@ -68,6 +68,7 @@ window.requestAnimationFrame(function () {
     game.restart();
 });
 function developerConsoleOpen() {
+	var addTileActive = false;
 	devButton = document.getElementById("devOpenButton");
 	devButton.style.color = "black";
 	devButton.style.background = "teal";
@@ -89,11 +90,26 @@ function developerConsoleOpen() {
     x2.setAttribute("value", "");
 	  var responseP = document.getElementId("devConsoleResponse").innerText;
 	  switch (command) {
-		  case addTile:
-			  //code
+		  case addTile: //initial addTile
+			  addTileActive = true;
+			  responseP = "Enter the tile value that you want to be added";
+			  
+			  
 			  break;
 		  default:
-			  responseP = "Unknown Command, sry man...";
+			  if (addTileActive) {
+				  GameManager.prototype.addRandomTile = function () {
+  if (this.grid.cellsAvailable()) {
+    var value = command;
+    var tile = new Tile(this.grid.randomAvailableCell(), value);
+
+    this.grid.insertTile(tile);
+  }
+};
+			  }
+			  else {
+				  responseP = "Unknown Command, sry man...";
+			  }
 	  }
   }
 });
