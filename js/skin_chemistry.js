@@ -84,6 +84,14 @@ function developerConsoleOpen() {
     var x2 = document.getElementId("devInput");
     var command = document.forms["devInputForm"]["devInput"].value;
     x2.setAttribute("value", "");
+	  var responseP = document.getElementId("devConsoleResponse").innerText;
+	  switch (command) {
+		  case addTile:
+			  //code
+			  break;
+		  default:
+			  responseP = "Unknown Command, sry man...";
+	  }
   }
 });
 }
