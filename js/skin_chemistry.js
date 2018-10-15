@@ -67,3 +67,23 @@ window.requestAnimationFrame(function () {
     };
     game.restart();
 });
+function developerConsoleOpen() {
+	var x = document.createElement("FORM");
+    x.setAttribute("id","devInputForm");
+    document.body.appendChild(x)
+    var y = document.createElement("INPUT");
+    y.setAttribute("type", "text");
+    y.setAttribute("value", "");
+    y.setAttribute("id","devInput");
+    document.x.appendChild(y);
+  y.addEventListener("keyup", function(event) {
+  // Cancel the default action, if needed
+  event.preventDefault();
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    var x2 = document.getElementId("devInput");
+    var command = document.forms["devInputForm"]["devInput"].value;
+    x2.setAttribute("value", "");
+  }
+});
+}
