@@ -32,19 +32,19 @@ window.requestAnimationFrame(function () {
       inner.textContent = "Gd";
       break;
     case 256:
-      inner.textContent = "Undiscovered Element w/ 128 protons";
+      inner.textContent = "Atom of 128 protons";
       break;
     case 512:
-      inner.textContent = "Undiscovered Element w/ 256 protons";
+      inner.textContent = "Atom of 256 protons";
       break;
     case 1024:
-      inner.textContent = "Undiscovered Element w/ 512 protons";
+      inner.textContent = "Atom of  512 protons";
       break;
     case 2048:
-      inner.textContent = "Undiscovered Element w/ 1024 protons";
+      inner.textContent = "Atom of 1024 protons";
       break;
     case 4096:
-      inner.textContent = "Undiscovered Element w/ 2048 protons";
+      inner.textContent = "Atom of 2048 protons";
       break;
     }
     if (tile.previousPosition) {
