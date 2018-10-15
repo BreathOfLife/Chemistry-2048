@@ -32,19 +32,19 @@ window.requestAnimationFrame(function () {
       inner.textContent = "Gd";
       break;
     case 256:
-      inner.textContent = "Undiscovered Atom of 128 Protons";
+      inner.textContent = "Undiscovered \n Element of \n 128 \n Protons";
       break;
     case 512:
-      inner.textContent = "Undiscovered Atom of 256 Protons";
+      inner.textContent = "Undiscovered \n Element of \n 256 \n Protons";
       break;
     case 1024:
-      inner.textContent = "Undiscovered Atom of  512 Protons";
+      inner.textContent = "Undiscovered \n Element of \n 512 \n Protons";
       break;
     case 2048:
-      inner.textContent = "Undiscovered Atom of 1024 Protons";
+      inner.textContent = "Undiscovered \n Element of \n 1024 \n Protons";
       break;
     case 4096:
-      inner.textContent = "Undiscovered Atom of 2048 Protons";
+      inner.textContent = "Undiscovered \n Element of \n 2048 \n Protons";
       break;
     }
     if (tile.previousPosition) {
