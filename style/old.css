@@ -239,7 +239,7 @@ hr {
 
 .tile, .tile .tile-inner {
   width: 107px;
-  height: 107px;
+  height: 92px;
   line-height: normal; }
 .tile.tile-position-1-1 {
   -webkit-transform: translate(0px, 0px);
@@ -305,6 +305,10 @@ hr {
   -webkit-transform: translate(363px, 363px);
   -moz-transform: translate(363px, 363px);
   transform: translate(363px, 363px); }
+
+.tile-inner {
+ padding-top: 15px;
+}
 
 .tile {
   line-height: normal;
