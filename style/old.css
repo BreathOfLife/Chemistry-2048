@@ -316,6 +316,7 @@ hr {
   -moz-transition-property: -moz-transform;
   transition-property: transform; }
   .tile .tile-inner {
+    margin-top: 15px;
     border-radius: 3px;
     background: #eee4da;
     text-align: center;
@@ -323,24 +324,31 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
+    margin-top: 15px;
     background: #eee4da;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
+    margin-top: 15px;
     background: #ede0c8;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
+    margin-top: 15px;
     color: #f9f6f2;
     background: #f2b179; }
   .tile.tile-16 .tile-inner {
+    margin-top: 15px;
     color: #f9f6f2;
     background: #f59563; }
   .tile.tile-32 .tile-inner {
+    margin-top: 15px;
     color: #f9f6f2;
     background: #f67c5f; }
   .tile.tile-64 .tile-inner {
+    margin-top: 15px;
     color: #f9f6f2;
     background: #f65e3b; }
   .tile.tile-128 .tile-inner {
+    margin-top: 15px;
     color: white;
     background: #edcf72;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
@@ -692,3 +700,5 @@ hr {
     margin-top: 90px !important; }
   .game-message .lower {
     margin-top: 30px !important; } }
+
+
