@@ -67,12 +67,22 @@ window.requestAnimationFrame(function () {
     };
     game.restart();
 });
+var devLight = 0
 function developerConsoleOpen() {
 	var devConsoleDiv = document.getElementById("devConsoleDiv");
 	var addTileActive = false;
 	devButton = document.getElementById("devOpenButton");
+	if (devLight==0) {
 	devButton.style.color = "black";
 	devButton.style.background = "teal";
+	devLight = 1;
+	}
+	else {
+	devButton.style.color = "teal";
+	devButton.style.background = "black";
+	devLight = 0;	
+	}
+	/*
 	var x = document.createElement("FORM");
     x.setAttribute("id","devInputForm");
     devConsoleDiv.appendChild(x)
@@ -114,4 +124,5 @@ function developerConsoleOpen() {
 	  }
   }
 });
+*/
 }
